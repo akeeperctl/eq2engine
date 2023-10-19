@@ -33,7 +33,8 @@ Build system used: [Premake](https://premake.github.io/)
 
 #### Windows
 - Install VS2022
-- Run `windows_dev_prepare.ps1` in repo root
+- Run `win_install_7zip4powershell.ps1` in repo root
+- Run `windows_dev_prepare.ps1`
 - Run `premake5 vs2022`
 - Open solution, located in `project_vs2022`
 - Build All
